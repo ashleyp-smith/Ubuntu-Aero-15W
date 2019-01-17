@@ -42,5 +42,7 @@ Edit **/etc/gdm3/custom.conf**
 ## Audio: Add headset support
 
 Edit **/etc/modprobe.d/alsa-base.conf**
+
 Add the following line to the end of the file:
+
 `options snd-hda-intel model=dell-headset-multi`
