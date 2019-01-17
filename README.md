@@ -3,6 +3,13 @@ Updates to Ubuntu for Gigabyte Aero 15W-V8
 
 ## Graphics: Install the latest Nvidia drivers
 
+```
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-415
+```
+
 ## Graphics: Enable synchronization for Nvidia
 
 Edit **/etc/systemd/system/display-manager.service**
